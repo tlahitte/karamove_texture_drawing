@@ -1,6 +1,6 @@
 # Karamove - Texture Drawing Addon for Blender
 
-**Version:** 1.0  
+**Version:** 1.7  
 **Author:** Tommy Lahitte
 
 ## Description
@@ -27,15 +27,17 @@ The addon facilitates an engaging and dynamic creative process by:
 1. **Download the Addon**:
 
    - Download the latest release zip file from the [Releases](#) section.
+   - Extract it's content to a new folder
 
 2. **Install the Addon in Blender**:
 
-   - Open Blender.
+   - Open Blender: Blender > Blender-Karamove9th_CircusScene.blend
    - Go to **Edit > Preferences**.
    - Select the **Add-ons** tab.
    - Click on **Install...** at the top.
-   - Navigate to the downloaded zip file, select it, and click **Install Add-on**.
+   - Navigate to the extracted zip file > Plugin_Blender, select the zip file, and click **Install Add-on**.
    - Enable the addon by checking the box next to **Karamove - Texture Drawing**.
+   - Set your Watchfolder path to the Watchfolder directory that came with the project
 
 ## Usage Instructions
 
@@ -43,7 +45,8 @@ The addon facilitates an engaging and dynamic creative process by:
 
 1. **Save Your Blender Project**:
 
-   - Ensure your Blender project is saved. The addon stores data within the project directory.
+   - Ensure your Blender project is saved. The addon stores data within the project directory in a JSON file
+   - Default project provided with the addon should come with a JSON file to automatically load the correct set of texture
 
 2. **Access the Addon Panel**:
 
